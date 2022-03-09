@@ -21,6 +21,7 @@ public class ProductEntity {
         this.precio=precio;
     }
 
+    //hola
     public ProductEntity(){
         super();
     }
