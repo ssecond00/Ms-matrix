@@ -48,7 +48,7 @@ public interface ProductController {
             @ApiResponse(responseCode = "500") })
 
     @PostMapping("/cargar")
-    List<ProductEntity> addProduct(final ProductEntity products);
+    String addProduct(final ProductEntity products);
 
     @Operation(summary = "Elimina un producto al catalogo dado un id asociado", description = "Elimina un producto al catalogo dado un id asociado", tags = {
             "products" })
